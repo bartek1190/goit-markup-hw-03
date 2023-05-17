@@ -1,0 +1,201 @@
+:root {
+  --general-blue-color: #2196f3;
+  --general-gray-color: #2f303a;
+  --container-team-color: #f5f4fa;
+  --general-font-color: #212121;
+  --contact-color: #757575;
+  --black-font-color: #000000;
+  --white-font-color: #ffffff;
+  --footer-link-contact-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--general-font-color);
+}
+
+.logo-link-web {
+  font-family: 'Raleway', sans-serif;
+  color: var(--black-font-color);
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--general-blue-color);
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+.header-list {
+  list-style: none;
+}
+.header-nav-link {
+  color: var(--general-font-color);
+  text-decoration: none;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--general-blue-color);
+}
+.header-contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+.header-contact-link {
+  text-decoration: none;
+  color: var(--contact-color);
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--general-blue-color);
+}
+
+.main-banner-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3em;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.main-banner-container {
+  background-color: var(--general-gray-color);
+  color: var(--white-font-color);
+}
+.main-banner-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9em;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--general-blue-color);
+  color: var(--white-font-color);
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 41px 10px 41px;
+  border: 0;
+}
+.main-list {
+  list-style: none;
+}
+.main-list-header {
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+.main-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+.main-list-text {
+  color: var(--contact-color);
+}
+.main-section-whatwedo {
+  font-size: 36px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.list-style {
+  list-style: none;
+}
+.main-team-container {
+  background-color: var(--container-team-color);
+}
+.main-team-header {
+  font-size: 36px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.main-team-list {
+  list-style: none;
+}
+.main-image-container {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  background-color: var(--white-font-color);
+  border-radius: 5px;
+  width: 270px;
+  height: 368px;
+}
+.image-name {
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.image-profession {
+  color: var(--contact-color);
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.fotter-background {
+  background-color: var(--general-gray-color);
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  color: var(--white-font-color);
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--footer-link-contact-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--general-blue-color);
+}
+.article-list {
+  list-style: none;
+}
+.article-list-button {
+  background-color: var(--container-team-color);
+  height: 38px;
+  width: 93px;
+  border-radius: 4px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.article-list-button:hover,
+.article-list-button:focus {
+  cursor: pointer;
+  color: var(--white-font-color);
+  background-color: var(--general-blue-color);
+  box-shadow: 0px 2px 2px 0px #0000001f;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
+.article-image-container {
+  height: 404px;
+  width: 370px;
+  border: 1px solid #eeeeee;
+}
+.image-description1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+.image-description2 {
+  font-weight: 400;
+  line-height: 1.9em;
+  letter-spacing: 0.03em;
+  color: var(--contact-color);
+}
