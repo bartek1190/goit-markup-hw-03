@@ -82,7 +82,12 @@ body {
   line-height: 1.3em;
   letter-spacing: 0.06em;
   text-align: center;
+  width: 696px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-bottom: 40px;
 }
+
 .main-banner-container {
   background-color: var(--general-gray-color);
   color: var(--white-font-color);
@@ -219,7 +224,7 @@ body {
   color: var(--contact-color);
 }
 
-.outer-container {
+.container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -247,4 +252,11 @@ body {
 .header-container {
   border-bottom: 1px solid;
   border-color: var(--border-header-color);
+}
+.content-container {
+  height: 600px;
+  background-color: var(--general-gray-color);
+  color: var(--white-font-color);
+  padding-top: 200px;
+  text-align: center;
 }
