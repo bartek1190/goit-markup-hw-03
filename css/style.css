@@ -35,7 +35,7 @@ body {
   color: var(--black-font-color);
   font-size: 26px;
   text-decoration: none;
-  line-height: 1.2em;
+  line-height: 1.4em;
   letter-spacing: 0.03em;
 }
 .logo-web {
@@ -83,14 +83,15 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   width: 696px;
+  text-align: center;
   margin: 0 auto;
   text-transform: uppercase;
-  padding-bottom: 40px;
+  margin-bottom: 30px;
+  color: var(--white-font-color);
 }
 
 .main-banner-container {
   background-color: var(--general-gray-color);
-  color: var(--white-font-color);
 }
 .main-banner-button {
   font-size: 16px;
@@ -104,23 +105,24 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 41px 10px 41px;
-  border: 0;
 }
 .main-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 .main-list-header {
   font-size: 14px;
   line-height: 1.2em;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
-.main-list-item {
+.main-list-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7em;
   letter-spacing: 0.03em;
-}
-.main-list-text {
   color: var(--contact-color);
 }
 .main-section-whatwedo {
@@ -128,20 +130,30 @@ body {
   line-height: 1.2em;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .list-style {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   list-style: none;
 }
 .main-team-container {
   background-color: var(--container-team-color);
 }
 .main-team-header {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.2em;
   letter-spacing: 0.03em;
   text-align: center;
 }
 .main-team-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   list-style: none;
 }
 .main-image-container {
@@ -149,15 +161,17 @@ body {
   box-shadow: 0px 1px 1px 0px #00000024;
   box-shadow: 0px 1px 3px 0px #0000001f;
   background-color: var(--white-font-color);
-  border-radius: 5px;
+  border-radius: 0 0 4px 4px;
   width: 270px;
   height: 368px;
 }
 .image-name {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 .image-profession {
   color: var(--contact-color);
@@ -169,8 +183,10 @@ body {
   background-color: var(--general-gray-color);
 }
 .footer-address {
+  margin-top: 20px;
+  list-style: none;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.7em;
   letter-spacing: 0.03em;
   color: var(--white-font-color);
 }
@@ -259,4 +275,31 @@ body {
   color: var(--white-font-color);
   padding-top: 200px;
   text-align: center;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.whatwedo-container {
+  background-color: var(--border-header-color);
+}
+.main-team-background {
+  background-color: var(--container-team-color);
+}
+.descryption-worker {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section-two {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-margin :not(:nth-last-child()) {
+  margin-bottom: 9px;
 }
