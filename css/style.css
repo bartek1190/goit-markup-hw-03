@@ -271,7 +271,7 @@ body {
   border-color: var(--border-header-color);
 }
 .content-container {
-  height: 600px;
+  max-height: 600px;
   background-color: var(--general-gray-color);
   color: var(--white-font-color);
   padding-top: 200px;
